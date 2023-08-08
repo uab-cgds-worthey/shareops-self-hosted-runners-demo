@@ -9,4 +9,5 @@ jobs:
     steps:
       - name: Cow Say Hello Please!
         run: cowsay "Hello UAB ShareOps!"
+      - name: Inspire please!
         run: fortune | cowsay
