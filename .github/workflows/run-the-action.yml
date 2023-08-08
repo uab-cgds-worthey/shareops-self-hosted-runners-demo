@@ -1,6 +1,8 @@
 name: Say Hi!
 
-on:[push, workflow_dispatch]
+on: 
+  - push
+  - workflow_dispatch
 
 jobs:
   say-hi-job:
