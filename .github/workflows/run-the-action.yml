@@ -8,5 +8,5 @@ jobs:
     runs-on: self-hosted-hello
     steps:
       - name: Cow Say Hello Please!
-        run: cowsay "Hello UAB ShareOps: "
-        #run: fortune | cowsay
+        run: cowsay "Hello UAB ShareOps!"
+        run: fortune | cowsay
