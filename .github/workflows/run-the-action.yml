@@ -9,4 +9,4 @@ jobs:
     steps:
       - name: Cow Say Hello Please!
         run: cowsay "Hello UAB ShareOps: "
-        run: fortune | cowsay
+        #run: fortune | cowsay
