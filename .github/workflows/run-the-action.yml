@@ -1,0 +1,16 @@
+name: Say Hi!
+
+on:
+  workflow_dispatch:
+
+jobs:
+  docker-shell-stack-deploy:
+    runs-on: self-hosted
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          ref: HEAD^
+
+      - name: Cow Say Hello Please!
+        run: cowsay "Hello UAB ShareOps!"
